@@ -1,0 +1,261 @@
+/*
+ * jQuery UI Slider 1.8.18
+ *
+ * Copyright 2011, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Slider#theming
+ */
+ :root {
+    --primary-color: #fff;
+    --secondary-color: #232e3d;
+    --accent: #fc8f09;
+    --text-color: #666666;
+    --border-color: #eeeeee;
+    --green-color: #38aca8;
+}
+.ui-slider {
+	position: relative;
+	text-align: left;
+}
+.ui-slider .ui-slider-handle {
+	position: absolute;
+	z-index: 2;
+	width: 1.2em;
+	height: 1.2em;
+	cursor: default;
+}
+.ui-slider .ui-slider-range {
+	position: absolute;
+	z-index: 1;
+	font-size: .7em;
+	display: block;
+	border: 0;
+	background-position: 0 0;
+}
+.ui-slider-horizontal .ui-slider-handle {
+	top: -.3em;
+	margin-left: -.6em;
+}
+.ui-slider-horizontal .ui-slider-range {
+    top: 0;
+    height: 8px;
+}
+.ui-slider-horizontal .ui-slider-range-min {
+	left: -1px;
+}
+.ui-slider-horizontal .ui-slider-range-max {
+	right: 0;
+}
+.ui-slider-vertical {
+	width: .8em;
+	height: 100px;
+}
+.ui-slider-vertical .ui-slider-handle {
+	left: -.3em;
+	margin-left: 0;
+	margin-bottom: -.6em;
+}
+.ui-slider-vertical .ui-slider-range {
+	left: 0;
+	width: 100%;
+}
+.ui-slider-vertical .ui-slider-range-min {
+	bottom: 0;
+}
+.ui-slider-vertical .ui-slider-range-max {
+	top: 0;
+}
+.slider-container h3 {
+	margin:0 0 10px;
+	padding:0;
+	color:#333;
+	font-size:30px;
+	line-height:30px;
+	font-weight:normal;
+}
+.slider-container p {
+	margin:0;
+	padding:0;
+}
+.sliderbox {
+    float: left;
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 48px 58px 35px;
+    background: var(--primary-color);
+    box-shadow: 0 0 30px rgb(56 172 168 / 15%);
+}
+.slider-container #slider {
+    margin: 0 auto 20px;
+    width: 100%;
+    height: 22px;
+    padding: 0;
+    background: var(--secondary-color);
+    border-radius: 10px;
+    border: 1px solid var(--secondary-color);
+}
+.slider-container #slider .ui-slider-range {
+    background: url(../images/range-bg-img.jpg) center;
+    background-repeat: repeat;
+    border-radius: 10px;
+    height: 20px;
+}
+.slider-container #slider .ui-slider-handle {
+	outline: none;
+	background: url(../images/handle.png) no-repeat left top;
+	border-radius: 0;
+	border: 0;
+	width: 42px;
+	height: 42px;
+	margin-top: -7px;
+	margin-left: -20px;
+	transition: none; 
+}
+.slider-container #slider .ui-slider-handle:hover {
+	cursor: pointer;
+}
+.price_rangetxt {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 4% 4% 4% 4% 4% 4%;
+    justify-content: space-between;
+}
+.price_rangetxt div.icon {
+    color: var(--secondary-color);
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+    font-weight: 600;
+    position: relative;
+    text-align: center;
+}
+.slider-outer {
+    margin-bottom: 30px;
+}
+.price_rangetxt div.current {
+	color: var(--green-color);
+}
+.price_content {
+    width: 100%;
+    float: left;
+    padding: 20px 30px;
+    display: grid;
+    align-items: center;
+    gap: 0 28px;
+    grid-template-columns: 62% 35%;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    background: var(--green-color) url(../images/builder-bg-img.png) no-repeat center;
+}
+.sliderbox > p {
+    margin-bottom: 0;
+    text-align: center;
+    width: 100%;
+    float: left;
+}
+.price_content .smallbox {
+    display: flex;
+    gap: 12px;
+    align-items: baseline;
+    position: relative;
+    padding: 0 23px;
+}
+.price_content .smallbox:first-child {
+    padding: 0 20px 0 0;
+}
+.price_content .smallbox::after{
+    content: "";
+    background: var(--border-color);
+    width: 1px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.price_content .heading {
+    font-size: 14px;
+    line-height: 14px;
+    color: var(--primary-color);
+    display: block;
+    margin-bottom: 10px;
+}
+.price_content .value {
+    display: block;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    color: var(--primary-color);
+}
+.price_content .smallbox:last-child {
+	margin:0;
+	border-right:none;
+}
+.price_txt {
+    display: flex;
+}
+#backup_val {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.price_txt .dollar {
+    color: var(--primary-color);
+    line-height: 30px;
+    font-size: 22px;
+    position: relative;
+    left: -5px;
+    padding-right: 0;
+}
+.month-title small {
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: -2px;
+    display: block;
+}
+.month-title{
+	padding-left: 5px;
+}
+.vps-price-plan p {
+    font-size: 14px;
+    padding-left: 30px;
+}
+.price_txt .numeric1 {
+    color: var(--primary-color);
+    line-height: 44px;
+    font-size: 48px;
+    font-weight: 700;
+    min-width: 64px;
+}
+.vps_btn.generic-btn a {
+    padding: 10px 20px;
+    width: 168px;
+    border-radius: 30px;
+    background: var(--accent);
+    height: 50px;
+}
+.vps_btn.generic-btn a:hover{
+    color: var(--primary-color);
+    background: var(--secondary-color);
+    border-color: var(--secondary-color);
+}
+.price_txt .numeric2 {
+    color: var(--primary-color);
+    line-height: 26px;
+    font-size: 20px;
+    display: block;
+}
+.product-con {
+    width: 100%;
+    float: left;
+    display: flex;
+}
+.month-title small {
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 2px;
+    display: block;
+    color: var(--primary-color);
+}

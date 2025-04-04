@@ -1,0 +1,2215 @@
+@media only screen and (max-width: 1900px) {
+    .banner-social-con {
+        right: -202px;
+    }
+}
+@media only screen and (max-width: 1600px) {
+    .banner-social-con {
+        right: -120px;
+    }
+    .banner-img-con figure img{
+        width: 100%;
+    }
+    .banner-main-con {
+        padding: 170px 0 85px;
+    }
+    .banner-inner-con {
+        gap: 70px;
+        grid-template-columns: 38% 44%;
+        justify-content: center;
+    }
+    .banner-text-con {
+        padding-top: 0;
+    }
+    h1 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .banner-text-con span {
+        margin-bottom: 18px;
+    }
+    .banner-text-con h1 {
+        margin-bottom: 14px;
+    }
+    .banner-text-con p {
+        margin-bottom: 24px;
+    }  
+    .hosting-types-inner-con {
+        box-shadow: 0px 0px 30px rgb(56 172 168 / 15%);
+    }  
+    .domain-text-con {
+        margin-bottom: 120px;
+    }
+    .generic-title {
+        margin-bottom: 55px;
+    }
+    .domain-serach-con {
+        margin: 0 auto 55px;
+    }
+    .domain-text-con ul {
+        gap: 29px;
+    }
+    .feature-main-con .generic-title {
+        margin-bottom: 55px;
+    }
+    .domain-main-con {
+        padding-top: 120px;
+    }
+    .padding-bottom {
+        padding-bottom: 120px;
+    }
+    .padding-top {
+        padding-top: 120px;
+    }
+    .hosting-solution-inner-con {
+        grid-template-columns: 45% 45%;
+        margin-bottom: 120px;
+    }
+    .global-partners-main-con {
+        margin-bottom: 120px;
+    }
+    .hosting-top-shape::before {
+        height: 820px;
+        top: 21%;
+    }
+    .domain-partners-con .global-partners-main-con {
+        margin-bottom: 120px;
+    }
+    .about-services-main-con.domain-service-con{
+        padding-top: 120px;
+    }
+    /*  */
+    .reseller-hosting-main-con .global-partners-main-con {
+        margin-bottom: 120px;
+    }
+}
+@media only screen and (max-width: 1440px) {
+    .banner-social-con {
+        right: -12px;
+    }
+    .banner-inner-con {
+        gap: 180px;
+        grid-template-columns: 39% 35%;
+    }
+    /*  */
+    .sub-banner-main-con .banner-inner-con {
+        gap: 80px;
+        grid-template-columns: 40% 40%;
+    }
+    .shared-plan-main-con {
+        padding-top: 30px;
+    }
+    .dedicated-features-con .feature-inner-con {
+        margin-bottom: 55px;
+    }
+    h3 {
+        font-size: 32px;
+        line-height: 46px;
+    }
+    /*  */
+    .about-services-main-con {
+        padding-top: 150px;
+    }
+    /*  */
+    .domain-sub-banner-con.sub-banner-main-con .banner-inner-con {
+        gap: 50px;
+        grid-template-columns: 45% 38%;
+    }
+    /*  */
+    /* 404 page styling start here*/
+    .error-con h2 {
+        font-size: 120px;
+        line-height: 125px;
+        margin-bottom: 10px;
+        color: var(--primary-color);
+    }
+    .error-con p {
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+    /* 404 page styling end here */
+    /* coming soon page styling start here */
+    .coming-soon-con h2 {
+        font-size: 80px;
+        line-height: 80px;
+        margin-bottom: 30px;
+    }
+    .coming-soon-social-links ul li a {
+        width: 55px;
+        height: 55px;
+    }
+    /* coming soon page styling end here */
+    #button {
+        bottom: 101px;
+        right: 101px;
+    }
+}
+@media only screen and (max-width: 1199px){
+    .header-main-con .navbar .navbar-nav {
+        gap: 30px;
+        margin-bottom: 0;
+    }
+    .header-main-con .navbar-expand-lg .navbar-nav .dropdown-menu.sub-menu {
+        left: -240px;
+    }
+    .header-main-con .collapse.navbar-collapse {
+        margin-right: 55px;
+    }
+    h1 {
+        font-size: 40px;
+        line-height: 48px;
+    }
+    .banner-text-con span {
+        margin-bottom: 10px;
+    }
+    .banner-text-con p {
+        margin-bottom: 20px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .banner-inner-con {
+        gap: 140px;
+        grid-template-columns: 37% 34%;
+    }
+    .banner-social-con {
+        right: 0;
+    }
+    .banner-main-con {
+        padding: 140px 0 60px;
+    }
+    .generic-btn a, .generic-btn button, .primary-btn a {
+        height: 48px;
+        padding: 17px 28px;
+    }
+    .login-btn a {
+        padding: 14px 24px;
+        height: 46px;
+    }
+    .banner-social-con ul li a {
+        width: 46px;
+        height: 46px;
+    }
+    .banner-social-con ul li {
+        margin-bottom: 12px;
+    }
+    h2 {
+        font-size: 34px;
+        line-height: 42px;
+    }
+    .hosting-types-main-con .generic-title {
+        margin-bottom: 35px;
+    }
+    .hosting-types-inner-con {
+        gap: 25px;
+        padding: 20px 0;
+    }
+    .hosting-type-inner-box {
+        padding: 24px;
+    }
+    .hosting-type-box figure img{
+        height: 140px;
+        object-fit: contain;
+    }
+    .hosting-type-box figure {
+        margin-bottom: 24px;
+        min-height: auto;
+    }
+    .hosting-type-box h6 {
+        margin-bottom: 14px;
+    }
+    .hosting-type-box p {
+        margin-bottom: 20px;
+    }
+    .generic-title p br{
+        display: none;
+    }
+    .generic-title {
+        margin-bottom: 35px;
+        padding: 0 140px;
+    }
+    .domain-text-con ul {
+        gap: 24px;
+        margin-bottom: 35px;
+    }
+    .domain-text-con ul li h4 {
+        margin-bottom: 8px;
+    }
+    .domain-text-con ul li p {
+        font-size: 16px;
+    }
+    .domain-text-con {
+        margin-bottom: 70px;
+    }
+    .feature-main-con .generic-title {
+        margin-bottom: 35px;
+    }
+    .feature-inner-con {
+        gap: 24px;
+    }
+    .feature-box figure img{
+        height: 100px;
+        object-fit: contain;
+    }
+    .feature-inner-con {
+        gap: 24px;
+        grid-template-columns: 48.5% 48.5%;
+    }
+    .padding-bottom {
+        padding-bottom: 100px;
+    }
+    .domain-main-con {
+        padding-top: 100px;
+    }
+    .padding-top {
+        padding-top: 100px;
+    }
+    .map-img-con figure{
+        padding: 0 20px;
+    }
+    .map-img-con figure img{
+        width: 100%;
+    }
+    .map-content-details-con {
+        padding: 0 30px;
+    }
+    .map-location-inner-con .nav-pills .nav-link {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .hosting-solution-img-con figure img{
+        width: 100%;
+    }
+    .hosting-solution-inner-con {
+        grid-template-columns: 45% 45%;
+        margin-bottom: 100px;
+        gap: 90px;
+    }
+    .hosting-top-shape::before {
+        height: 670px;
+        top: 20%;
+    }
+    .global-partners-inner-con ul {
+        gap: 24px;
+    }
+    .global-partners-inner-con ul li figure img{
+        width: 100%;
+    }
+    .global-partners-inner-con ul li {
+        height: 100px;
+        padding: 0 20px;
+    }
+    .global-partners-main-con .generic-title {
+        margin-bottom: 35px;
+    }
+    .generic-title h2 {
+        margin-bottom: 10px;
+    }
+    .client-review-box p {
+        margin-bottom: 20px;
+    }
+    .client-review-outer-con {
+        margin-bottom: 80px;
+    }
+    .builder-main-con {
+        padding: 30px 45px;
+        min-height: 180px;
+        margin-bottom: 80px;
+    }
+    .builder-content h3 {
+        margin-bottom: 5px;
+    }
+    .footer-inner-con {
+        gap: 25px;
+        padding-bottom: 50px;
+    }
+    .footer-box h6 {
+        margin-bottom: 16px;
+    }
+    .global-partners-main-con {
+        margin-bottom: 100px;
+    }
+    /*  */
+    .sub-banner-main-con .banner-inner-con {
+        gap: 50px;
+        grid-template-columns: 37% 36%;
+    }
+    .sub-banner-main-con .banner-text-con p {
+        margin-bottom: 30px;
+    }
+    /*  */
+    .shared-plan-inner-con {
+        display: grid;
+        gap: 29px;
+        grid-template-columns: 48.5% 48.5%;
+    }
+    .shared-plan-inner-con .hosting-type-inner-box ul{
+        display: inline-block;
+        margin: 0 auto 16px;
+    }
+    .shared-plan-inner-con .hosting-type-inner-box select {
+        width: 240px;
+        margin: 0 auto 24px;
+    }
+    .shared-plan-inner-con .hosting-type-inner-box .primary-btn a {
+        width: 240px;
+    }
+    .shared-plan-main-con .hosting-type-inner-box:hover {
+        background: var(--green-color) url(../images/vertical-hover-bg-shape.png) no-repeat center;
+        background-size: cover;
+        width: 100%;
+    }
+    .dedicated-features-con .feature-inner-con {
+        margin-bottom: 35px;
+    }
+    h3 {
+        font-size: 28px;
+        line-height: 44px;
+    }
+    .shared-hosting-img-con figure img{
+        width: 100%;
+    }
+    .shared-hosting-inner-con {
+        gap: 73px;
+        grid-template-columns: 46% 46%;
+    }
+    .shared-hosting-text-con p {
+        font-size: 16px;
+        line-height: 26px;
+        margin-bottom: 15px;
+    }
+    .shared-hosting-text-con span {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    /*  */
+    .wordpress-inner-con {
+        gap: 63px;
+    }
+    .wordpress-text-con p {
+        margin-bottom: 26px;
+    }
+    .static-sec ul {
+        grid-template-columns: 24% 21% 23% 22%;
+    }
+    .counter-box .count, .counter-box span {
+        font-size: 46px;
+        line-height: 46px;
+    }
+    .about-services-main-con {
+        padding-top: 100px;
+    }
+    .about-services-inner-con {
+        gap: 25px;
+    }
+    .about-service-con {
+        padding: 35px 24px 30px;
+    }
+    .about-milestone-txt-con span {
+        font-size: 38px;
+        line-height: 46px;
+        margin-bottom: 14px;
+    }
+    .about-milestone-txt-con h5 {
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+    .our-team-inner-con {
+        gap: 25px;
+    }
+    /*  */
+    .contact-main-con {
+        gap: 67px;
+    }
+    .contact-text-con h2 {
+        margin-bottom: 20px;
+    }
+    .contact-text-con > ul li {
+        padding-left: 26px;
+        margin-bottom: 10px;
+    }
+    .contact-text-con > ul {
+        margin-bottom: 20px;
+    }
+    .social-links-con span {
+        margin-bottom: 20px;
+    }
+    .contact-outer-main-con {
+        padding-top: 60px;
+    }
+    /*  */
+    .dedicated-list-con ul li {
+        padding-left: 25px;
+        margin-bottom: 12px;
+    }
+    .dedicated-server-heading {
+        margin-bottom: 24px;
+    }
+    .dedicated-hosting-solution-con .hosting-solution-inner-con {
+        gap: 70px;
+        grid-template-columns: 45.65% 47%;
+    }
+    .dedicated-hosting-solution-con .dedicated-server-con h3 {
+        margin-bottom: 10px;
+        font-size: 28px;
+        line-height: 34px;
+    }
+    .dedicated-hosting-solution-con .hosting-solution-left-con h2 {
+        line-height: 36px;
+        margin-bottom: 12px;
+        margin-left: 0;
+        font-size: 30px;
+    }
+    .dedicated-hosting-solution-con .hosting-solution-left-con p {
+        margin-bottom: 9px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    /*  */
+    .domain-serach-con {
+        margin: 0 auto 40px;
+    }
+    .about-services-main-con.domain-service-con {
+        padding-top: 100px;
+    }
+    .domain-partners-con .global-partners-main-con {
+        margin-bottom: 100px;
+    }
+    /*  */
+    .reseller-hosting-main-con .global-partners-main-con {
+        margin-bottom: 100px;
+    }
+    .reseller-price-plan span.dollar {
+        top: 1px;
+        left: -3px;
+    }
+    .reseller-price-plan .price_txt span {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .reseller-price-plan span.numeric1 {
+        font-size: 38px;
+        line-height: 36px;
+    }
+    .reseller-video-main-con .wordpress-inner-con {
+        gap: 64px;
+        grid-template-columns: 49% 44%;
+    }
+    .reseller-video-main-con .wordpress-text-con h2 {
+        line-height: 38px;
+        margin-bottom: 10px;
+    }
+    .reseller-video-main-con .wordpress-text-con ul li {
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: 500;
+        height: 60px;
+    }
+    /*  */
+    .price_rangetxt {
+        grid-template-columns: 5.5% 5.5% 5.5% 5.5% 5.5% 5.5%;
+    }
+    .price_rangetxt div.icon {
+        font-size: 15px;
+        line-height: 21px;
+    }
+    .slider-outer {
+        margin-bottom: 20px;
+    }
+    .sliderbox {
+        padding: 40px 30px 30px;
+    }
+    .price_txt .numeric1 {
+        line-height: 40px;
+        font-size: 40px;
+        min-width: 54px;
+    }
+    .price_content {
+        padding: 16px 20px;
+        margin-bottom: 20px;
+    }
+    .vps_btn.generic-btn a {
+        width: 144px;
+    }
+    .price_content .value {
+        font-size: 18px;
+        line-height: 16px;
+    }
+    .price_content .smallbox {
+        gap: 9px;
+        padding: 0 17px;
+    }
+    .price_content .heading {
+        margin-bottom: 8px;
+    }
+    .price_txt .dollar {
+        left: -3px;
+    }
+}
+@media only screen and (max-width: 991px){
+    /* cross-button */
+    .navbar-toggler {
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+        padding: 0px;
+        width: 40px;
+        position: absolute;
+    }
+    .header-main-con ul li.nav-item.dropdown.show .dropdown-menu.sub-menu.show {
+        display: block;
+    }
+    .header-main-con .collapse.navbar-collapse {
+        margin-right: 0;
+    }
+    .navbar-collapse {
+        background: var(--secondary-color);
+        position: absolute;
+        z-index: 2;
+        right: 0;
+        top: 49px;
+        width: 300px;
+        padding: 16px 14px;
+        border-radius: 15px;
+    }
+    .navbar-toggler:focus {
+        outline: none;
+    }
+    .navbar-toggler .navbar-toggler-icon:nth-child(1),
+    .navbar-toggler .navbar-toggler-icon:nth-child(3) {
+        -webkit-transition: transform .35s ease-in-out;
+        -moz-transition: transform .35s ease-in-out;
+        -o-transition: transform .35s ease-in-out;
+        transition: transform .35s ease-in-out;
+    }
+    .navbar-toggler:not(.collapsed) .navbar-toggler-icon:nth-child(1) {
+        position: absolute;
+        top: 8px;
+        -webkit-transform: rotate(135deg);
+        -moz-transform: rotate(135deg);
+        -o-transform: rotate(135deg);
+        transform: rotate(135deg);
+        left: 0px;
+    }
+    .navbar-toggler:not(.collapsed) .navbar-toggler-icon:nth-child(2) {
+        height: 12px;
+        visibility: hidden;
+        background-color: transparent;
+    }
+    .navbar-toggler:not(.collapsed) .navbar-toggler-icon:nth-child(3) {
+        position: absolute;
+        top: 8px;
+        -webkit-transform: rotate(-135deg);
+        -moz-transform: rotate(-135deg);
+        -o-transform: rotate(-135deg);
+        transform: rotate(-135deg);
+        left: 0px;
+    }
+    .navbar-toggler-icon {
+        float: left;
+        width: 90%;
+        height: 3px;
+        margin: 3px 0px;
+        background: var(--secondary-color);
+    }
+    .navbar-light .navbar-toggler {
+        border: none;
+    }
+    .navbar-btn {
+        clip-path: none;
+        padding: 15px 20px 15px 20px;
+        text-align: center;
+        left: 0;
+    }
+    .header-main-con .navbar .navbar-nav {
+        gap: 0;
+        margin-bottom: 0;
+    }
+    .header-main-con .navbar .navbar-nav .nav-item{
+        margin-bottom: 1px;
+    }
+    .header-main-con .navbar .navbar-nav .nav-link {
+        color: var(--primary-color);
+        padding: 10px 14px !important;
+        border-radius: 10px;
+    }
+    .header-main-con .navbar-expand-lg .navbar-nav .dropdown-menu ul {
+        padding: 0;
+    }
+    .header-main-con .navbar-expand-lg .navbar-nav .dropdown-menu{
+        position: unset;
+        padding-top: 1px;
+        width: 100%;
+    }
+    .dropdown-item{
+        font-size: 14px;
+    }
+    .header-main-con .navbar-expand-lg .navbar-nav .dropdown-menu ul li a.dropdown-item, .header-main-con .navbar-expand-lg .navbar-nav .dropdown-menu ul li a.dropdown-toggle {
+        padding: 4px 26px !important;
+    }
+    .header-main-con .navbar-expand-lg .navbar-nav .dropdown-menu ul li.dropdown-item ul.dropdown-menu.sub-menu li a.dropdown-item {
+        padding: 4px 36px !important;
+    }
+    .header-main-con .navbar-expand-lg .navbar-nav .dropdown-menu.sub-menu {
+        position: relative;
+        width: 100%;
+        padding: 0;
+        left: 0;
+    }
+    .header-main-con .navbar .navbar-nav .nav-link.active,
+    .header-main-con .navbar .navbar-nav .nav-link:hover {
+        color: var(--secondary-color);
+        background: var(--primary-color);
+        border-radius: 10px;
+    }
+    .nav-btns.d-flex.align-items-center {
+        padding-right: 60px;
+    }
+    /* cross button */
+    .banner-social-con {
+        display: none;
+    }
+    .banner-inner-con {
+        gap: 80px;
+        grid-template-columns: 50% 38%;
+    }
+    .banner-main-con {
+        padding: 120px 0 40px;
+    }
+    h1 {
+        font-size: 36px;
+        line-height: 44px;
+    }
+    .banner-text-con h1 {
+        margin-bottom: 12px;
+    }
+    .banner-text-con p {
+        margin-bottom: 18px;
+    }
+    h2 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .hosting-types-main-con .generic-title {
+        margin-bottom: 30px;
+    }
+    .generic-title {
+        margin-bottom: 30px;
+        padding: 0 30px;
+    }
+    .domain-main-con {
+        padding-top: 70px;
+    }
+    .padding-bottom {
+        padding-bottom: 70px;
+    }
+    .domain-serach-con {
+        gap: 11px;
+        grid-template-columns: 79% 19.2%;
+        max-width: 100%;
+        margin: 0 auto 30px;
+    }
+    .domain-text-con ul {
+        gap: 18px;
+        margin-bottom: 30px;
+    }
+    .all-domains-btn a span {
+        margin-bottom: 2px;
+    }
+    .hosting-types-inner-con {
+        gap: 18px;
+        padding: 10px 0;
+    }
+    .hosting-type-box figure img {
+        height: 110px;
+    }
+    h6 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .hosting-type-box h6 {
+        margin-bottom: 10px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .hosting-type-inner-box {
+        padding: 24px 18px;
+    }
+    .hosting-type-box ul li {
+        margin-bottom: 6px;
+    }
+    .hosting-type-box p {
+        margin-bottom: 14px;
+    }
+    .hosting-type-box ul {
+        width: auto;
+        margin: 0 auto 16px;
+    }
+    .hosting-type-box ul li {
+        margin-bottom: 4px;
+        font-size: 14px;
+    }
+    .hosting-price-box span.numeric1 {
+        font-size: 40px;
+        line-height: 38px;
+    }
+    .hosting-price-box .numeric2 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .hosting-price-box span.dollar {
+        left: 0;
+        font-size: 22px;
+        line-height: 22px;
+        padding-right: 4px;
+    }
+    .hosting-price-box .month-title {
+        padding-left: 4px;
+    }
+    .hosting-price-box {
+        margin-bottom: 16px;
+    }
+    .hosting-type-box figure {
+        margin-bottom: 16px;
+    }
+    .domain-text-con ul li h4 {
+        font-size: 26px;
+        line-height: 34px;
+        margin-bottom: 5px;
+    }
+    .domain-text-con ul li {
+        padding: 20px;
+    }
+    .bg-ful-shape::before {
+        height: 590px;
+        top: 15%;
+    }
+    .domain-text-con ul li p {
+        font-size: 15px;
+        line-height: 23px;
+    }
+    .domain-text-con {
+        margin-bottom: 60px;
+    }
+    .generic-title h2 {
+        margin-bottom: 8px;
+    }
+    .feature-main-con .generic-title {
+        margin-bottom: 30px;
+    }
+    .feature-inner-con {
+        gap: 20px;
+    }
+    .feature-box {
+        padding: 20px 30px;
+    }
+    .feature-box p {
+        margin-bottom: 14px;
+    }
+    .feature-box span {
+        margin-bottom: 6px;
+    }
+    .padding-top {
+        padding-top: 70px;
+    }
+    .map-img-con {
+        width: 47%;
+        height: 100%;
+        border: 0;
+        padding-right: 8px;
+    }
+    .map-and-content-con {
+        padding: 30px 10px;
+    }
+    .map-content-details-con {
+        width: 53%;
+        height: 100%;
+        padding: 0 9px;
+    }
+    .country-details h6 {
+        font-size: 17px;
+        line-height: 23px;
+    }
+    .map-img-con figure {
+        padding: 0;
+    }
+    .country-details ul li {
+        padding-left: 22px;
+        line-height: 22px;
+    }
+    .country-details ul li i {
+        top: 6px;
+    }
+    .country-details {
+        margin-bottom: 18px;
+    }
+    .hosting-solution-inner-con {
+        grid-template-columns: 33% 61%;
+        margin-bottom: 60px;
+        gap: 40px;
+    }
+    .global-partners-main-con .generic-title {
+        margin-bottom: 30px;
+    }
+    .hosting-top-shape::before {
+        height: 490px;
+    }
+    .global-partners-inner-con ul li {
+        height: 80px;
+        padding: 0 15px;
+    }
+    .global-partners-inner-con ul {
+        gap: 18px;
+    }
+    .global-partners-main-con {
+        margin-bottom: 70px;
+    }
+    .client-review-box {
+        padding: 25px;
+    }
+    .client-review-outer-con .owl-carousel {
+        margin-bottom: 30px;
+    }
+    .client-review-outer-con {
+        margin-bottom: 70px;
+    }
+    h3 {
+        font-size: 25px;
+        line-height: 34px;
+    }
+    .builder-content p {
+        margin-bottom: 0;
+        font-size: 16px;
+    }
+    .generic-btn a, .generic-btn button, .primary-btn a {
+        height: 44px;
+        padding: 10px 26px;
+    }
+    .builder-main-con {
+        padding: 24px 30px;
+        min-height: 160px;
+        margin-bottom: 60px;
+    }
+    .footer-box h6 {
+        margin-bottom: 12px;
+    }
+    .footer-box ul li {
+        padding-left: 0;
+        margin-bottom: 7px;
+        line-height: 21px;
+    }
+    .footer-contact-info ul li i {
+        top: 5px;
+    }
+    .footer-inner-con {
+        padding-bottom: 30px;
+        grid-template-columns: 24% 15% 24% 26%;
+        gap: 25px;
+    }
+    .footer-contact-info ul li {
+        padding-left: 22px;
+        line-height: 21px;
+    }
+    .footer-copyright-con {
+        padding: 20px 0;
+    }
+    /*  */
+    .sub-banner-main-con .banner-inner-con {
+        gap: 50px;
+        grid-template-columns: 49% 43%;
+    }
+    .sub-banner-main-con .banner-text-con a img{
+        width: 40px;
+        height: 40px;
+    }
+    .dedicated-features-con .generic-title {
+        padding: 0;
+    }
+    .dedicated-features-con .feature-box {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+        padding: 30px 26px 36px;
+    }
+    .dedicated-features-con .feature-box figure{
+        margin-bottom: 0;
+    }
+    .shared-hosting-inner-con {
+        grid-template-columns: 38% 51%;
+    }
+    .shared-hosting-text-con ul li {
+        padding: 6px 28px 6px 0;
+        font-size: 14px;
+    }
+    /*  */
+    .faq-main-con .generic-title p {
+        font-size: 16px;
+    }
+    .faq-main-con .card .btn-link {
+        font-size: 18px;
+        line-height: 18px;
+        padding: 20px 22px 20px;
+    }
+    .faq-main-con .card .btn-link.collapsed {
+        padding: 20px 22px 20px;
+    }
+    .faq-main-con .card .card-body {
+        padding: 0 25px 20px;
+    }
+    .sub-banner-main-con .banner-text-con h1 {
+        margin-bottom: 10px;
+    }
+    .sub-banner-main-con .banner-text-con p {
+        margin-bottom: 20px;
+    }
+    /*  */
+    .wordpress-inner-con {
+        gap: 40px;
+        grid-template-columns: 100%;
+        text-align: center;
+    }
+    .wordpress-text-con h2 {
+        margin-bottom: 12px;
+    }
+    .video-inner-con {
+        width: 460px;
+        height: 340px;
+        margin: 0 auto;
+    }
+    .static-sec ul {
+        grid-template-columns: 35% 35%;
+        justify-content: center;
+    }
+    .counter-box .count, .counter-box span {
+        font-size: 38px;
+        line-height: 44px;
+    }
+    .counter-box {
+        margin-bottom: 8px;
+    }
+    .about-services-main-con {
+        padding-top: 80px;
+    }
+    .about-services-inner-con {
+        gap: 20px;
+        grid-template-columns: 48.5% 48.5%;
+    }
+    .about-services-inner-con .about-service-con:last-child{
+        grid-column: 1/-1;
+    }
+    .about-service-con figure img{
+        height: 120px;
+        object-fit: contain;
+    }
+    .about-milestone-box {
+        gap: 82px;
+        grid-template-columns: 37% 51%;
+        margin-bottom: 50px;
+    }
+    .about-milestone-inner-con .about-milestone-box:nth-child(even) {
+        grid-template-columns: 51% 37%;
+    }
+    .team-member-img figure {
+        width: 130px;
+        height: 130px;
+    }
+    .our-team-box {
+        padding: 30px;
+    }
+    .team-member-img {
+        margin: 0 auto 20px;
+    }
+    #light {
+        top: 23%;
+        max-width: 550px;
+        max-height: 320px;
+    }
+    .about-wordpress-site-main-con iframe {
+        width: 550px;
+        height: 310px;
+    }
+    /*  */
+    .contact-main-con {
+        gap: 50px;
+        grid-template-columns: 100%;
+    }
+    .contact-form-con {
+        padding: 30px 35px;
+        order: 2;
+    }
+    .contact-form-con h2 {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .contact-text-con > ul {
+        display: inline-block;
+        text-align: left;
+        width: 230px;
+    }
+    .contact-text-con{
+        text-align: center;
+    }
+    .social-links-con ul {
+        justify-content: center;
+    }
+    /*  */
+    .dedicated-list-con ul:last-child {
+        padding: 0;
+    }
+    .dedicated-server-heading {
+        margin-bottom: 20px;
+    }
+    .dedicated-list-con ul li {
+        margin-bottom: 4px;
+    }
+    .dedicated-list-con ul {
+        margin-bottom: 4px;
+        padding: 0;
+    }
+    .dedicated-list-con {
+        grid-template-columns: 34% 34%;
+        justify-content: center;
+    }
+    .dedicated-hosting-solution-con .hosting-solution-inner-con {
+        gap: 40px;
+        grid-template-columns: 100%;
+    }
+    .dedicated-hosting-solution-con .dedicated-server-con ul {
+        margin-bottom: 20px;
+    }
+    /*  */
+    .domain-sub-banner-con.sub-banner-main-con .banner-inner-con {
+        gap: 30px;
+        grid-template-columns: 56% 38%;
+    }
+    .domain-price-main-con .generic-title {
+        margin-bottom: 25px;
+    }
+    .domain-partners-con .global-partners-main-con {
+        margin-bottom: 70px;
+    }
+    .about-services-main-con.domain-service-con {
+        padding-top: 70px;
+    }
+    /*  */
+    .reseller-inner-con thead tr{
+        display: none;
+    }
+    .reseller-inner-con li button {
+        border: 1px solid var(--border-color);
+    }
+    .reseller-inner-con ul{
+        padding-bottom: 0;
+    }
+    .reseller-inner-con li:last-child {
+        border-right: 0;
+    }
+    .reseller-inner-con tbody tr:first-child td.default{
+        border-top-right-radius: 10px;
+    }
+    .reseller-inner-con tbody tr:last-child td.default{
+        border-bottom-right-radius: 10px;
+    }
+    .reseller-inner-con table{
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    .reseller-video-main-con .wordpress-inner-con {
+        gap: 30px;
+        grid-template-columns: 100%;
+    }
+    .wordpress-text-con ul{
+        display: inline-block;
+    }
+    .reseller-hosting-main-con .global-partners-main-con {
+        margin-bottom: 70px;
+    }
+    .reseller-hosting-main-con.hosting-top-shape::before {
+        top: 0px;
+    }
+    .reseller-video-main-con .wordpress-text-con ul li {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    /*  */
+    .sub-banner-main-con .banner-text-con p br{
+        display: none;
+    }
+    .slider-container #slider .ui-slider-range {
+        height: 16px;
+    }
+    .slider-container #slider {
+        height: 18px;
+        margin: 0 auto 16px;
+    }
+    .slider-container #slider .ui-slider-handle {
+        width: 32px;
+        height: 32px;
+        margin-top: -3px;
+        background-size: contain;
+    }
+    .price_rangetxt div.icon {
+        line-height: 19px;
+    }
+    .price_content{
+        grid-template-columns: 100%;
+    }
+    .product-con {
+        justify-content: center;
+        margin-bottom: 26px;
+    }
+    .price_content .smallbox:last-child{
+        border-right: 0;
+        padding-right: 0;
+    }
+    .price_content .smallbox:last-child::after{
+        display: none;
+    }
+    .price_content .smallbox {
+        gap: 11px;
+        padding: 0 25px;
+    }
+    #backup_val {
+        width: 280px;
+        margin: 0 auto;
+    }
+    .price_content {
+        padding: 26px 24px;
+    }
+    .management-level-main-con .generic-title {
+        padding: 0;
+    }
+    .management-level-box {
+        padding: 30px 30px 40px;
+    }
+    .management-level-box ul li {
+        margin-bottom: 4px;
+    }
+    /*  */
+    /*  */
+    #button {
+        bottom: 79px;
+        right: 30px;
+        width: 50px;
+        height: 50px;
+    }
+    /* coming soon */
+    .coming-soon-con {
+        position: relative;
+        padding: 0;
+    }
+    .error-con .generic-btn a {
+        font-size: 16px;
+        padding: 20px 30px;
+    }
+    .coming-soon-con h2 {
+        font-size: 60px;
+        line-height: 60px;
+        margin-bottom: 30px;
+    }
+    /*  */
+    .shared-plan-main-con {
+        padding-top: 0;
+    }
+}
+@media only screen and (max-width: 767px){
+    .banner-inner-con {
+        gap: 40px;
+        grid-template-columns: 100%;
+        text-align: center;
+    }
+    .banner-btns {
+        justify-content: center;
+    }
+    h1 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .banner-text-con span {
+        margin-bottom: 8px;
+    }
+    .banner-text-con h1 {
+        margin-bottom: 8px;
+    }
+    .banner-text-con p {
+        margin-bottom: 16px;
+    }
+    .banner-img-con figure img {
+        width: 300px;
+        object-fit: contain;
+    }
+    .banner-main-con {
+        padding: 120px 0 40px;
+        background-position: -237px;
+    }
+    .hosting-types-main-con {
+        padding-top: 60px;
+    }
+    .hosting-types-main-con .generic-title {
+        margin-bottom: 26px;
+    }
+    .hosting-types-inner-con {
+        gap: 8px;
+        padding: 10px 20px;
+        grid-template-columns: 100%;
+    }
+    .padding-bottom {
+        padding-bottom: 60px;
+    }
+    .domain-main-con {
+        padding-top: 60px;
+    }
+    h2 {
+        font-size: 26px;
+        line-height: 32px;
+    }
+    .generic-title {
+        margin-bottom: 26px;
+        padding: 0;
+    }
+    .domain-serach-con {
+        gap: 13px;
+        grid-template-columns: 71% 26.2%;
+        margin: 0 auto 26px;
+    }
+    .domain-text-con ul {
+        margin-bottom: 26px;
+        grid-template-columns: 48% 48%;
+    }
+    .domain-text-con {
+        margin-bottom: 50px;
+    }
+    .feature-main-con .generic-title {
+        margin-bottom: 26px;
+    }
+    .feature-box {
+        padding: 20px 22px;
+    }
+    .padding-top {
+        padding-top: 60px;
+    }
+    .map-img-con {
+        width: 53%;
+        padding-right: 18px;
+    }
+    .map-content-details-con {
+        width: 47%;
+    }
+    .hosting-solution-inner-con {
+        grid-template-columns: 100%;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .hosting-solution-content-con h2 {
+        margin-bottom: 10px;
+    }
+    .hosting-solution-content-con p {
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 14px;
+    }
+    .hosting-solution-content-con ul li {
+        margin-bottom: 6px;
+    }
+    .hosting-solution-content-con ul {
+        margin-bottom: 12px;
+        text-align: left;
+        display: inline-block;
+    }
+    .client-review-outer-con {
+        margin-bottom: 60px;
+    }
+    .hosting-solution-img-con figure img {
+        width: 300px;
+        object-fit: contain;
+    }
+    .global-partners-inner-con ul {
+        grid-template-columns: 33% 33%;
+        justify-content: center;
+    }
+    .global-partners-main-con {
+        margin-bottom: 60px;
+    }
+    .client-review-box {
+        text-align: center;
+    }
+    .reviewer-info-box {
+        gap: 12px;
+        justify-content: center;
+        text-align: left;
+    }
+    .client-review-box p {
+        margin-bottom: 15px;
+    }
+    .client-review-outer-con .owl-carousel {
+        margin-bottom: 20px;
+    }
+    .builder-main-con {
+        padding: 24px 30px;
+        min-height: auto;
+        margin-bottom: 50px;
+        text-align: center;
+        grid-template-columns: 100%;
+        gap: 14px;
+    }
+    .footer-inner-con {
+        padding-bottom: 30px;
+        grid-template-columns: 100%;
+        gap: 18px;
+        text-align: center;
+    }
+    .footer-contact-info ul {
+        max-width: 199px;
+        margin: 0 auto;
+        text-align: left;
+    }
+    .copyright-logo-con {
+        gap: 12px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .copyright-logo-con a {
+        margin-right: 0;
+        padding-right: 0;
+        border-right: 0;
+    }
+    .footer-copyright-con {
+        grid-template-columns: 100%;
+        gap: 12px;
+    }
+    .social-links-con ul {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+    }
+    .footer-box ul li {
+        margin-bottom: 2px;
+    }
+    .footer-box h6 {
+        margin-bottom: 8px;
+    }
+    /*  */
+    .sub-banner-main-con .banner-inner-con {
+        gap: 40px;
+        grid-template-columns: 100%;
+    }
+    .shared-plan-inner-con .hosting-type-inner-box {
+        padding: 30px 20px;
+    }
+    .shared-plan-inner-con .hosting-type-inner-box select {
+        margin: 0 auto 20px;
+    }
+    .shared-plan-inner-con .hosting-type-inner-box select,
+    .shared-plan-inner-con .hosting-type-inner-box .primary-btn a{
+        height: 46px;
+        width: 100%;
+    }
+    .shared-plan-inner-con .hosting-type-inner-box figure img{
+        height: 120px;
+        object-fit: contain;
+    }
+    .shared-plan-inner-con .hosting-type-inner-box h6{
+        margin-bottom: 4px;
+    }
+    .shared-plan-inner-con .hosting-type-inner-box p {
+        line-height: 21px;
+        font-size: 15px;
+    }
+    .shared-plan-inner-con .hosting-type-inner-box ul li {
+        margin-bottom: 7px;
+    }
+    .feature-box span {
+        margin-bottom: 5px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .dedicated-features-con .feature-box {
+        gap: 16px;
+        padding: 30px 16px;
+    }
+    .feature-box p {
+        margin-bottom: 10px;
+    }
+    h3 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .dedicated-features-con .feature-inner-con {
+        margin-bottom: 30px;
+        gap: 15px;
+    }
+    .shared-plan-inner-con {
+        gap: 15px;
+    }
+    .generic-title p {
+        font-size: 15px;
+        line-height: 21px;
+    }
+    .shared-hosting-inner-con {
+        gap: 30px;
+        grid-template-columns: 100%;
+    }
+    .shared-hosting-img-con figure{
+        width: 300px;
+        margin: 0 auto;
+    }
+    .shared-hosting-text-con h2,
+    .shared-hosting-text-con p,
+    .shared-hosting-text-con span{
+        text-align: center;
+    }
+    .faq-main-con .card .btn-link {
+        font-size: 16px;
+        line-height: 24px;
+        padding: 16px 50px 16px 18px;
+    }
+    .faq-main-con .card .btn-link.collapsed {
+        padding: 16px 50px 16px 18px;
+    }
+    .faq-main-con .card .btn-link::after, .faq-main-con .card .btn-link.collapsed::after{
+        right: 14px;
+    }
+    .faq-main-con .card .card-body {
+        padding: 0 21px 20px;
+    }
+    /*  */
+    .video-inner-con {
+        height: 310px;
+    }
+    #light {
+        max-width: 460px;
+        max-height: 300px;
+    }
+    .about-wordpress-site-main-con iframe {
+        width: 460px;
+        height: 290px;
+    }
+    .static-sec ul {
+        grid-template-columns: 45% 38%;
+    }
+    .about-services-inner-con {
+        gap: 15px;
+    }
+    .about-service-con {
+        padding: 35px 20px 30px;
+    }
+    .about-milestone-box {
+        gap: 30px;
+        grid-template-columns: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .about-milestone-txt-con span {
+        font-size: 32px;
+        line-height: 36px;
+        margin-bottom: 8px;
+    }
+    .about-milestone-txt-con h5 {
+        margin-bottom: 6px;
+        font-size: 18px;
+    }
+    .about-milestone-inner-con .about-milestone-box:nth-child(even) {
+        grid-template-columns: 100%;
+    }
+    .about-milestone-inner-con .about-milestone-box:nth-child(even) .about-milestone-txt-con {
+        order: unset;
+    }
+    .about-services-main-con {
+        padding-top: 60px;
+    }
+    .static-sec ul li p {
+        font-size: 15px;
+        line-height: 21px;
+    }
+    .our-team-inner-con {
+        gap: 14px;
+    }
+    .team-member-img figure {
+        width: 100px;
+        height: 100px;
+    }
+    .our-team-box {
+        padding: 20px;
+    }
+    .counter-box .count, .counter-box span {
+        font-size: 30px;
+        line-height: 34px;
+    }
+    .counter-box {
+        margin-bottom: 4px;
+    }
+    .wordpress-text-con p {
+        margin-bottom: 20px;
+        font-size: 15px;
+        line-height: 22px;
+    }
+    /*  */
+    .contact-form-con ul li input {
+        height: 46px;
+    }
+    .contact-form-con .generic-btn button {
+        height: 46px;
+    }
+    /*  */
+    .dedicated-server-heading {
+        margin-bottom: 24px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .dedicated-btn-box {
+        gap: 20px;
+    }
+    .dedicated-list-con {
+        grid-template-columns: 43% 38%;
+        gap: 0 20px;
+    }
+    .dedicated-hosting-solution-con .dedicated-server-con ul,
+    .dedicated-hosting-solution-con .hosting-solution-left-con ul{
+        text-align: left;
+    }
+    .dedicated-hosting-solution-con .hosting-solution-left-con h2 {
+        line-height: 32px;
+        margin-bottom: 7px;
+        font-size: 24px;
+    }
+    .dedicated-hosting-solution-con .dedicated-server-con {
+        padding: 30px 32px 30px;
+    }
+    .dedicated-hosting-solution-con .dedicated-server-con h3 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    /*  */
+    .domain-sub-banner-con.sub-banner-main-con .banner-inner-con {
+        grid-template-columns: 100%;
+    }
+    .domain-serach-con input,
+    .domain-serach-con button{
+        height: 50px;
+    }
+    .about-services-main-con.domain-service-con {
+        padding-top: 60px;
+    }
+    .domain-partners-con .global-partners-main-con {
+        margin-bottom: 60px;
+    }
+    /*  */
+    .reseller-inner-con li button {
+        height: 50px;
+    }
+    .reseller-inner-con tbody td:first-child {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .reseller-inner-con td, .reseller-inner-con th {
+        padding: 12px 20px;
+    }
+    .reseller-inner-con tbody td {
+        font-size: 14px;
+    }
+    .reseller-video-main-con .video-inner-con {
+        height: 346px;
+    }
+    .video-play-icon a {
+        width: 80px;
+        height: 80px;
+        background-size: contain;
+    }
+    .reseller-video-main-con .wordpress-text-con h2 {
+        line-height: 36px;
+        margin-bottom: 6px;
+    }
+    .reseller-hosting-main-con .global-partners-main-con {
+        margin-bottom: 60px;
+    }
+    .reseller-inner-con tbody td:first-child {
+        padding: 10px 16px 10px 36px;
+        position: relative;
+    }
+    .reseller-inner-con tbody td:first-child i {
+        font-size: 12px;
+        margin-right: 0;
+        position: absolute;
+        top: 50%;
+        left: 15px;
+        transform: translateY(-50%);
+    }
+    /*  */
+    .price_rangetxt {
+        grid-template-columns: 9% 11% 8% 10% 10% 10%;
+    }
+    .price_rangetxt div.icon {
+        line-height: 18px;
+        font-size: 14px;
+    }
+    .slider-outer {
+        margin-bottom: 16px;
+    }
+    .product-con {
+        display: grid;
+        margin-bottom: 16px;
+        grid-template-columns: 40% 34%;
+    }
+    .price_content .smallbox:nth-child(odd){
+        padding-left: 0;
+    }
+    .price_content .smallbox:nth-child(even){
+        padding-right: 0;
+    }
+    .price_content .smallbox:nth-child(even):after{
+        display: none;
+    }
+    .price_content .smallbox:first-child {
+        padding: 0 25px 0 0;
+    }
+    .price_content .smallbox {
+        padding: 0 25px;
+        margin-bottom: 13px;
+    }
+    .price_content {
+        background-size: cover;
+    }
+    .management-level-inner-con {
+        gap: 14px;
+    }
+    .management-level-box ul li::before {
+        top: 0;
+        transform: unset;
+        font-size: 14px;
+    }
+    .management-level-box ul li {
+        margin-bottom: 8px;
+        line-height: 21px;
+        font-size: 15px;
+        padding-left: 24px;
+    }
+    .management-level-box .generic-btn a {
+        height: 46px;
+    }
+    .management-level-box {
+        padding: 30px 20px 40px;
+    }
+    .management-level-box p {
+        margin-bottom: 14px;
+    }
+    /* coming soon page  */
+    .error-con .generic-btn a {
+        padding: 16px 20px;
+        font-size: 15px;
+    }
+    .coming-soon-con h2 {
+        font-size: 50px;
+        line-height: 50px;
+        margin-bottom: 20px;
+    }
+    .coming-soon-social-links ul li a {
+        width: 45px;
+        height: 45px;
+    }
+    .coming-soon-social-links ul {
+        margin-bottom: 26px;
+    }
+    .error-con {
+        padding: 0;
+    }
+    /* coming soon page  */
+    #button {
+        bottom: 55px;
+        right: 40px;
+        width: 50px;
+        height: 50px;
+    }
+    /*  */
+    .team-member-img a {
+        width: 30px;
+        height: 30px;
+    }
+    .team-member-img a i{
+        font-size: 14px;
+    }
+    /*  */
+    .domain-serach-con input {
+        padding: 10px 20px;
+    }
+}
+@media only screen and (max-width: 575px){
+    .hosting-types-main-con {
+        padding-top: 50px;
+    }
+    .login-btn a {
+        padding: 8px 14px;
+        height: 38px;
+        font-size: 12px;
+    }
+    .header-main-con .navbar-light .navbar-brand {
+        margin-right: 0;
+    }
+    .navbar-toggler {
+        width: 32px;
+    }
+    .nav-btns.d-flex.align-items-center {
+        padding-right: 44px;
+    }
+    .header-main-con {
+        top: 14px;
+    }
+    .banner-main-con {
+        padding: 90px 0 20px;
+        background-position: -217px;
+    }
+    .banner-img-con figure img {
+        width: 240px;
+    }
+    .generic-btn a, .generic-btn button, .primary-btn a {
+        height: 42px;
+        padding: 8px 22px;
+        font-size: 13px;
+    }
+    h1 {
+        font-size: 26px;
+        line-height: 32px;
+    }
+    .banner-text-con span i {
+        margin-right: 6px;
+        font-size: 18px;
+    }
+    .banner-inner-con {
+        gap: 30px;
+    }
+    h2 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .hosting-types-main-con .generic-title {
+        margin-bottom: 20px;
+    }
+    .hosting-type-inner-box {
+        padding: 14px 24px;
+    }
+    .hosting-type-box h6 {
+        margin-bottom: 6px;
+    }
+    .hosting-type-box p {
+        margin-bottom: 10px;
+    }
+    .hosting-type-box .primary-btn a {
+        height: 46px;
+    }
+    .domain-serach-con {
+        grid-template-columns: 100%;
+        margin: 0 auto 20px;
+    }
+    .domain-serach-con button {
+        height: 50px;
+    }
+    .domain-serach-con input {
+        height: 50px;
+    }
+    .generic-title {
+        margin-bottom: 20px;
+        padding: 0;
+    }
+    .domain-text-con ul {
+        margin-bottom: 20px;
+        grid-template-columns: 48% 48%;
+        gap: 12px;
+    }
+    .all-domains-btn a span {
+        margin-bottom: 0;
+    }
+    .domain-text-con {
+        margin-bottom: 40px;
+    }
+    .feature-main-con .generic-title {
+        margin-bottom: 20px;
+    }
+    .feature-inner-con {
+        gap: 16px;
+        grid-template-columns: 100%;
+    }
+    .map-location-inner-con .nav-pills .nav-link{
+        padding: 12px 16px;
+    }
+    .map-img-con {
+        width: 100%;
+        height: auto;
+        margin-bottom: 30px;
+    }
+    .map-content-details-con {
+        width: 100%;
+    }
+    .map-and-content-con {
+        height: 100%;
+    }
+    .map-and-content-con {
+        padding: 30px 10px 6px;
+    }
+    .hosting-solution-img-con figure img {
+        width: 260px;
+    }
+    .hosting-solution-inner-con {
+        gap: 30px;
+    }
+    .hosting-solution-content-con h2 {
+        margin-bottom: 6px;
+    }
+    .hosting-solution-content-con ul li {
+        margin-bottom: 6px;
+        line-height: 20px;
+        padding-left: 30px;
+    }
+    .global-partners-main-con .generic-title {
+        margin-bottom: 20px;
+    }
+    .global-partners-inner-con ul {
+        grid-template-columns: 47% 47%;
+    }
+    .global-partners-inner-con ul li {
+        height: 60px;
+    }
+    .client-review-box {
+        padding: 18px;
+    }
+    .client-review-box p {
+        margin-bottom: 12px;
+    }
+    .reviewer-details span {
+        margin-bottom: 0;
+    }
+    .reviewer-info-box figure {
+        width: 45px;
+        height: 45px;
+    }
+    .client-review-outer-con {
+        margin-bottom: 40px;
+    }
+    .builder-main-con {
+        margin-bottom: 40px;
+    }
+    .navbar-collapse {
+        top: 38px;
+    }
+    /*  */
+    .sub-banner-main-con .banner-inner-con {
+        gap: 30px;
+    }
+    .sub-banner-main-con .banner-text-con h1 {
+        margin-bottom: 8px;
+    }
+    .shared-plan-inner-con {
+        grid-template-columns: 100%;
+    }
+    .shared-plan-inner-con .hosting-type-inner-box {
+        padding: 20px 20px 30px;
+    }
+    .dedicated-features-con .feature-inner-con {
+        margin-bottom: 20px;
+        grid-template-columns: 100%;
+    }
+    .dedicated-features-con .feature-main-con h3{
+        font-size: 18px;
+    }
+    .feature-main-con h3 {
+        margin-bottom: 16px;
+    }
+    .shared-hosting-img-con figure {
+        width: 260px;
+    }
+    .shared-hosting-text-con p {
+        font-size: 15px;
+        line-height: 23px;
+        margin-bottom: 12px;
+    }
+    .shared-hosting-text-con span {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .faq-main-con .card .btn-link.collapsed,
+    .faq-main-con .card .btn-link {
+        white-space: normal;
+        line-height: 22px;
+    }
+    .faq-main-con .card .btn-link::after, .faq-main-con .card .btn-link.collapsed::after {
+        top: 18px;
+        transform: unset;
+    }
+    /*  */
+    .video-inner-con {
+        height: 240px;
+        width: 320px;
+    }
+    .video-play-icon a {
+        width: 60px;
+        height: 60px;
+        background-size: contain;
+    }
+    #light {
+        max-width: 320px;
+        max-height: 220px;
+    }
+    .about-wordpress-site-main-con iframe {
+        width: 320px;
+        height: 220px;
+    }
+    .static-sec ul {
+        gap: 20px;
+        grid-template-columns: 73%;
+    }
+    .about-services-inner-con {
+        gap: 15px;
+        grid-template-columns: 100%;
+    }
+    .about-milestone-txt-con span {
+        font-size: 30px;
+        line-height: 34px;
+        margin-bottom: 6px;
+    }
+    .about-milestone-txt-con h5 {
+        margin-bottom: 4px;
+        font-size: 17px;
+    }
+    .about-milestone-box {
+        gap: 20px;
+        margin-bottom: 30px;
+    }
+    .about-milestone-img-con figure img{
+        width: 320px;
+        object-fit: contain;
+    }
+    .our-team-inner-con {
+        gap: 14px;
+        grid-template-columns: 100%;
+    }
+    .builder-content p {
+        font-size: 15px;
+        line-height: 21px;
+    }
+    /*  */
+    .contact-text-con > ul li a {
+        font-size: 15px;
+        line-height: 21px;
+    }
+    .contact-text-con > ul li {
+        margin-bottom: 6px;
+    }
+    .contact-outer-main-con {
+        padding-top: 40px;
+    }
+    .contact-text-con h2 {
+        margin-bottom: 16px;
+    }
+    .contact-text-con > ul {
+        margin-bottom: 16px;
+    }
+    .social-links-con span {
+        margin-bottom: 16px;
+    }
+    .contact-form-con {
+        padding: 22px 20px;
+    }
+    .contact-form-con h2 {
+        margin-bottom: 18px;
+    }
+    /*  */
+    .dedicated-btn-box {
+        gap: 14px;
+        flex-direction: column;
+    }
+    .dedicated-server-heading {
+        margin-bottom: 22px;
+        gap: 14px;
+    }
+    .dedicated-list-con {
+        grid-template-columns: 100%;
+        gap: 0;
+    }
+    .dedicated-list-con ul {
+        display: inline-block;
+        margin: 0 auto 4px;
+        width: 183px;
+    }
+    .dedicated-server-heading h5 {
+        text-align: center;
+    }
+    .dedicated-server-box {
+        padding: 26px 30px 26px;
+    }
+    .dedicated-btn-box .generic-btn a {
+        height: 44px;
+    }
+    .dedicated-hosting-solution-con .dedicated-server-con h3 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .dedicated-hosting-solution-con .dedicated-server-con {
+        padding: 26px 19px 26px;
+    }
+    .dedicated-hosting-solution-con .dedicated-server-con ul li,
+    .dedicated-hosting-solution-con .hosting-solution-left-con ul li {
+        font-size: 15px;
+        line-height: 21px;
+    }
+    .dedicated-hosting-solution-con .dedicated-server-con ul li::before, .dedicated-hosting-solution-con .hosting-solution-left-con ul li::before {
+        top: 9px;
+        transform: unset;
+    }
+    .faq-main-con .generic-title p {
+        font-size: 15px;
+    }
+    .dedicated-list-con ul li {
+        margin-bottom: 6px;
+        font-size: 15px;
+        line-height: 21px;
+    }
+    .hosting-price-box span.numeric1 {
+        font-size: 32px;
+        line-height: 34px;
+    }
+    .hosting-price-box .numeric2 {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .dedicated-server-box .hosting-price-box span.dollar {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    /*  */
+    .sub-banner-main-con .banner-text-con p {
+        margin-bottom: 16px;
+    }
+    .about-services-main-con.domain-service-con {
+        padding-top: 50px;
+    }
+    .domain-price-main-con .table thead th {
+        padding: 14px 8px 14px;
+    }
+    .domain-price-main-con .table thead th:last-child{
+        padding-right: 12px;
+    }
+    .domain-price-main-con .table thead th:first-child, .domain-price-main-con .table tbody tr td:first-child {
+        padding-left: 12px;
+    }
+    .domain-price-main-con .table {
+        margin-bottom: 20px;
+    }
+    .domain-price-inner-con {
+        margin: 0 auto 20px;
+    }
+    /*  */
+    .reseller-video-main-con .video-inner-con {
+        height: 266px;
+    }
+    .reseller-video-main-con .wordpress-text-con p {
+        line-height: 21px;
+        margin-bottom: 20px;
+    }
+    .wordpress-text-con ul {
+        text-align: left;
+    }
+    .reseller-video-main-con .wordpress-text-con ul li i {
+        left: 16px;
+        top: 12px;
+        transform: unset;
+        font-size: 16px;
+    }
+    .reseller-video-main-con .wordpress-text-con ul li {
+        font-size: 15px;
+        line-height: 21px;
+        height: auto;
+        padding: 10px 12px 10px 40px;
+    }
+    .reseller-video-main-con .wordpress-text-con h2 {
+        line-height: 28px;
+    }
+    .client-review-box p {
+        font-size: 15px;
+        line-height: 21px;
+    }
+    /*  */
+    .price_rangetxt {
+        grid-template-columns: 12% 14% 14% 14% 14% 14%;
+    }
+    .slider-container #slider {
+        margin: 0 auto 12px;
+    }
+    .slider-container #slider .ui-slider-handle {
+        margin-top: -4px;
+    }
+    .slider-outer {
+        margin-bottom: 12px;
+    }
+    .sliderbox {
+        padding: 30px 20px 20px;
+    }
+    .product-con {
+        margin-bottom: 16px;
+        grid-template-columns: 48% 48%;
+    }
+    .price_content .smallbox {
+        flex-direction: column;
+        text-align: center;
+    }
+    .image_holder {
+        margin: 0 auto;
+    }
+    .value_text {
+        width: 100%;
+    }
+    #backup_val {
+        width: 100%;
+        flex-direction: column;
+        gap: 14px;
+    }
+    .sliderbox > p {
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .management-level-inner-con {
+        grid-template-columns: 100%;
+    }
+    .management-level-box figure img{
+        height: 120px;
+    }
+    /* 404 page */
+    .error-con h2 {
+        font-size: 70px;
+        line-height: 70px;
+        margin-bottom: 10px;
+    }
+    .error-con p {
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 20px;
+    }
+    .error-con .generic-btn a {
+        padding: 16px 28px;
+        font-size: 14px;
+    }
+    /* 404 page */
+    /* coming soon page */
+    .coming-soon-con h2 {
+        font-size: 36px;
+        line-height: 36px;
+        margin-bottom: 10px;
+    }
+    .coming-soon-social-links ul {
+        margin-bottom: 16px;
+    }
+    /* coming soon page */
+    #button {
+        bottom: 20px;
+        right: 30px;
+        width: 40px;
+        height: 40px;
+    }
+    #button::after {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    /*  */
+}
+@media(max-width: 900px) {
+    .mloogo {
+        width: 100px;
+    }
+}
